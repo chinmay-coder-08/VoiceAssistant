@@ -1,0 +1,12 @@
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 0px;
+}
+
+.weather-main {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 116px;
+}

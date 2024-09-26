@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    hello
+</body>
+<script>
+    async function as() {
+        const url = "https://en.wikipedia.org/w/api.php?action=query&format=json&titles=Bla_Bla_Bla&prop=extracts&exintro&explaintext"
+        const res = await fetch(url, {
+            mode: "no-cors",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+                'Origin': 'http://127.0.0.1:5500/src/components/fetch.html'
+            }
+        })
+        const data = await res.json();
+        console.log(data)
+    }
+    as();
+</script>
+
+</html>

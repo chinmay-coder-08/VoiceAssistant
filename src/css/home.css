@@ -1,0 +1,13 @@
+.userText {
+  border: 2px solid;
+  /* height: 52vh;
+  width: 73vw; */
+  text-align: left;
+  display: flex;
+  bottom: 26px;
+}
+
+body.modal-open .bg {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}

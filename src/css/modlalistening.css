@@ -1,0 +1,60 @@
+.modal-header {
+  border: none;
+}
+
+.modal-header .btn-close {
+  box-shadow: none;
+}
+
+.modal-title {
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-body {
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2.3rem;
+  outline: 0;
+}
+
+/* .modal-dialog button{
+  background: #ff00a5;
+  color: white;
+  font-family: "Roboto";
+  box-shadow: none;
+} */
+
+.modal-footer {
+  border: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.voice-icon {
+  font-size: 3rem;
+  margin-top: 12px;
+  /* border-radius: 28px;
+  border: 2px red solid; */
+  width: fit-content;
+  height: fit-content;
+  margin: 12px;
+  display: flex;
+  font-size: 3rem;
+  margin-top: 12px;
+  border: 2px solid #ff00a5;
+  border-radius: 2rem;
+  padding: 6px;
+}
